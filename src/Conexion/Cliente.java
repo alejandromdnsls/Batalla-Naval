@@ -19,7 +19,7 @@ public class Cliente {
         InetAddress gpo=null;
         try{
             MulticastSocket cl= new MulticastSocket(9999);
-            System.out.println("Cliente escuchando puerto "+
+            System.out.println("Cliente escuchando puertoo "+
                                                  cl.getLocalPort());
             cl.setReuseAddress(true);
             try{
